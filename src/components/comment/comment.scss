@@ -1,0 +1,72 @@
+.commentAll{
+   position:relative;
+    margin:20px auto;
+    border-bottom:1px dotted #ddd;
+   // border-top: 1px dotted #ddd;
+    @media only screen and(min-width:932px){
+    width:890px;    
+    }
+
+   &:after{
+      content:'';
+      display:block;
+      height:0;
+      clear:both;
+      visibility:hidden;
+   }
+}
+.commentLeft{
+    @media only screen and(min-width:932px){
+      float:left; 
+      width:90px;
+    }
+
+   width:90px;
+   margin:0 auto;
+   height:108px;
+   >p{
+     width:90px;
+     height:24px;
+     line-height:24px;
+     text-align:center;
+   }
+   >img{
+      width:60px;
+      height:60px;
+      margin:10px 15px;
+   }
+}
+.commentRight{
+    @media only screen and(min-width:932px){
+        float:left;  
+	width:800px;
+    }
+    // position:absolute;
+     //left:90px;
+     //top:0;
+    // width:92%;
+      max-width:800px;
+      margin:0 auto;
+   >div:first-child{
+      margin:0 0 15px 0;
+      height: 30px;
+      margin-bottom: 15px;
+      background: #eee;
+      line-height: 30px;
+      text-align:center;
+      >span{
+        margin:0 15px;
+      }
+      @media only screen and(max-width:662px){
+         line-height: 20px;
+	 height: 40px;
+	  >span{
+           margin:0 5px;
+         }
+      }
+
+   }
+   >div:last-child{
+        margin:0 0 15px 0;
+   }
+}

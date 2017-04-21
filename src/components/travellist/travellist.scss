@@ -1,0 +1,43 @@
+.sec{
+   width:100%;
+   margin-top:40px;
+}
+.secleft{
+   //width:200px;
+   //height:490px;
+   height:552px;
+   position:relative;
+   margin:0;
+   border:1px solid red;
+   overflow:hidden;
+   >h2{
+    font-family: "Hiragino Sans GB","microsoft yahei";
+    font-size: 20px;
+    line-height: 50px;
+    color: #555;
+    font-weight: bold;
+    padding-left: 15px;
+    height: 50px;
+    margin:0;
+    background: url(http://img2.tuniucdn.com/img/20150302/gentuancms/gticon.png) no-repeat;
+    background-position: 0px -60px;
+  }
+  >img{
+     position:absolute;
+     top:50px;
+     left:-20px;
+     @media only screen and(max-width:752px){
+         display:none;
+   }
+  }
+  @media only screen and(max-width:752px){
+        height:50px;
+   }
+
+
+}
+
+
+
+
+

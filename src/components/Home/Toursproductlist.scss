@@ -1,0 +1,32 @@
+.allItem{
+   margin:0px auto;
+   padding:0 0 0 0;
+   height: 505px;
+   overflow:hidden;
+   &:after{
+	   content:'';
+	   height:0;
+	   clear:both;
+	   visibility:hidden;
+	   display:block;
+   }
+
+   @media only screen and(min-width:1185px){
+     width:960px;
+   }
+   @media only screen and (min-width:977px) and (max-width:1184px) {
+     width:720px;
+   }
+      @media only screen and (min-width:752px) and (max-width:976px) {
+     width:480px;
+   }
+      @media only screen and (min-width:720px) and (max-width:751px) {
+     width:720px;
+   }
+      @media only screen and (min-width:480px) and (max-width:719px) {
+     width:480px;
+   }
+         @media only screen and(max-width:479px) {
+     width:240px;
+   }
+}

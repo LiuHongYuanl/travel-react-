@@ -1,0 +1,115 @@
+.hAll{
+  background-color:#f8f8f8;
+ // height:30px;
+  border-bottom: 1px solid #eee;
+  //overflow:hidden;
+  >div{
+  @media only screen and(max-width:768px){
+   width:95%;
+    margin:0 auto;
+  }
+   &:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+   }
+  }
+}
+.hLeftuser{
+  float:left;
+  border:1px solid #333;
+  margin:0 0 0 50px;
+  @media only screen and(max-width:768px){
+    margin:0;
+  }
+  //width:100px;
+  &:after{
+       content:"";
+       display:block;
+       height:0;
+       clear:both;
+       visibility:hidden;
+     }
+  >li{
+     list-style:none;
+     margin:0 0 0 5px;
+     padding:0;
+     float:left;
+     height: 30px;
+     line-height: 30px;
+     font-size: 12px;  
+     >a{
+        cursor:pointer;
+	text-decoration:none;
+	color:#000;
+	&:hover{
+	  color:#ff7d7d;
+	}
+     }
+     >span{
+        color:#d8cbcb;
+	font-size:15px;
+     }
+     
+  }
+
+}
+.hRightInfo{
+  border:1px solid #333;
+   float:right;
+   margin:0 30px 0 auto;
+   width:300px;
+  @media only screen and(max-width:768px){
+    margin:0;
+  }
+   height:30px;
+   ul:after{
+        content:"";
+	display:block;
+	clear:both;
+	visibility:hidden;
+     }
+     ul{
+       margin:0;
+       padding:0;
+     }
+    li{
+       list-style:none;
+       margin:0;
+       padding:0;
+     }
+     >ul{
+     >li{
+       float:right;
+       padding:0 12px 0 12px;
+    @media only screen and(max-width:768px){
+        padding:0;
+       }
+       height:30px;
+       line-height:30px;
+       @at-root a{
+          color:#000;
+	  text-decoration:none;
+	  cursor:pointer;
+	  &:hover{
+	     color:#ff8800;
+	  text-decoration:none;
+	  }
+       }
+     }
+   }
+}
+.userbuy{
+   >li{
+       background-color:#fff;
+       padding:0;
+       text-align:center;
+       height:30px;
+       line-height:30px;    
+    }
+
+}
+
+

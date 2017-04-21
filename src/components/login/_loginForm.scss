@@ -1,0 +1,41 @@
+.loginF{
+   @media only screen and ( min-width: 768px){
+      width:450px;
+      box-shadow: 0 1px 4px rgba(51,51,51,.2);
+      border-radius:1px;
+      padding:10px;
+    }
+   // margin:5%;
+    >div > h3{
+       width:100px;
+       margin:10px auto;
+    }
+
+}
+
+.tooltip{
+@media only screen and ( min-width: 768px){
+   margin:20px auto;
+   span{
+      margin:0px 7px;
+   }
+}  
+   span{
+     margin-right:2%;
+   }
+}
+.Ffooter{
+  // border:1px solid #333;
+   padding:0px 20%;
+   span:first-child a{
+      color:#404040;
+      text-decoration:none;
+      cursor:pointer;
+   }
+   span:last-child a{
+      text-decoration:none;
+      float:right;
+      cursor:pointer;      
+   }
+
+}
